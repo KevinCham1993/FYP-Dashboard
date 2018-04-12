@@ -1,0 +1,121 @@
+
+.courseList{
+	text-align: center;
+	margin: 2% auto;
+}
+
+.courseName{
+	font-size: 22px;
+	margin-top:100px;
+	font-weight: 500;
+	margin-bottom:100px;
+}
+
+.univ{
+	font-size : 18px;
+}
+
+.colored{
+	color: red;
+}
+.courseListItem{
+	border: 1px solid rgba(255, 255, 255, .4);
+	border-style:groove;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top : 20px;
+	margin-bottom : 20px;
+	padding: 15px 0px 15px 0px;
+	text-decoration-color: black;
+}
+
+.courseItem{
+	color: black;
+}
+
+.courseItem > hr {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.courseHeading {
+	text-align: center;
+}
+
+.courseThreads{
+	margin-top: 3%;
+/*	margin-left: 25%;
+	margin-right: 25%;*/
+}
+
+.threadList{
+	margin-top: 7%;
+}
+
+.threadItem{
+	padding-top: 10px;
+	margin-top : 15px;
+	margin-bottom : 15px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	color: black;
+}
+
+.threadTitle{
+	font-weight: 500;
+	font-size: 1.3rem;
+}
+
+.threadBadge{
+	/*background-color: #d1d1d1;*/
+	font-weight: 500;
+}
+
+.threadViews{
+	text-align: center;
+	color: #878787;
+}
+
+.threadBadge{
+	margin-right: 2%;
+}
+
+.threadBy{
+	font-size: 0.9rem;
+	color: #878787;
+}
+
+.notFound{
+	text-align: center;
+}
+
+.footer {
+  margin-top: 6%;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color:grey;
+}
+
+.link_icon{
+	margin-top: 3.8%;
+	text-align: center;
+	/*margin-right: 5%;*/
+}
+.icon{
+	color:#bfbfbf;
+}
+
+.loading{
+	margin-left:45%;
+	margin-top: 20%;
+}
+
+.pagination_component{
+	text-align: center;
+	margin-top: 10px;
+}

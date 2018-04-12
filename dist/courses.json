@@ -1,0 +1,20 @@
+[
+  {
+    "name" : "Applied Text Mining in Python",
+    "id" : 1,
+    "univ" : "University of Michigan",
+    "linkName" : "python-text-mining"
+  },
+  {
+    "name" : "course 2",
+    "id" : 2,
+    "univ" : "univ 2",
+    "linkName" : "python-text-mining"
+  },
+  {
+    "name" : "course 3",
+    "id" : 3,
+    "univ" : "univ 3",
+    "linkName" : "python-text-mining"
+  }
+]
