@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project is for the dashboard of Coursera - made by WING@NUS for MOOC Intervention Project.
 The project has a 'Node/Express' Backend with 'React' Frontend.
 The project uses 'Webpack' to bundle required files, and 'Babel' to transpile for all the browsers.
@@ -20,3 +21,6 @@ The React Componenets are :<br>
 All the server side coding for the Express(Node) app resides in the 'server.js' in the root directory.
 
 The index.html - the html file which we render the react SPA on - resides in ./dist.
+=======
+# FYP-Dashboard
+>>>>>>> b49d2a3a24ce5e4e27a1533672c7dec862561a83
