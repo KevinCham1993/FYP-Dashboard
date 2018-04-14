@@ -67,8 +67,15 @@
 }
 
 .threadBadge{
-	/*background-color: #d1d1d1;*/
+	/* background-color: #d1d1d1; */
 	font-weight: 500;
+}
+
+.content{
+	margin-top: 1%;
+	margin-left: 2%;
+	font-weight: 350;
+	font-size: 0.85rem;
 }
 
 .threadViews{

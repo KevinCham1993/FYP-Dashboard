@@ -7,7 +7,7 @@ const CourseList = (props) => {
 	const courses = props.courses.map(course => {
 		return(
 			<div className = "courseListItem" key={course.courseId}>
-				<CourseItem key = {course.courseId} id={course.courseId} courseName={course.courseId == "eQJvsjn9EeWJaxK5AT4frw" ? 'Using Databases with Python' : course.courseId} univ="University of Michigan" />
+				<CourseItem key = {course.courseId} id={course.courseId} courseName={course.courseId == "eQJvsjn9EeWJaxK5AT4frw" ? 'Using Databases with Python' : course.courseId} univ={course.courseId == "eQJvsjn9EeWJaxK5AT4frw" ? "University of Michigan" : "NUS"} />
 			</div>
 		);
 	});

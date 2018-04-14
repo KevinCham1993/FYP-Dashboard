@@ -47,7 +47,7 @@ app.get('/api/:id', function(request, response) {
 
     //getting thread info from database
     // query = 'SELECT lastAnsweredAt, createdAt, title, viewCount, totalAnswerCount FROM thread WHERE threadId IN (\'' + threadIdList.join('\', \'') + '\');';
-    query = 'SELECT T.lastAnsweredAt, T.createdAt, T.title, T.viewCount, T.totalAnswerCount, T.id, T.courseId, T.threadId, TN.score FROM thread T, thread_new TN WHERE T.id = TN.id and T.courseId = \'' + request.params.id + '\' ORDER BY TN.score DESC;';
+    query = 'SELECT T.lastAnsweredAt, T.createdAt, T.title, T.content, T.viewCount, T.totalAnswerCount, T.id, T.courseId, T.threadId, TN.score FROM thread T, thread_new TN WHERE T.id = TN.id and T.courseId = \'' + request.params.id + '\' ORDER BY TN.score DESC;';
     db.all(query, function(err,rows){
       //console.log(rows.length);
       if(err){

@@ -24,7 +24,7 @@ const processBadge = (str) => {
 const threadBadge = (props) => {
 	if(props.thread.answerBadge != '')
 		if(props.thread.score > 0.5) {
-			return (<span className= 'threadBadge chip ' style={{backgroundColor: 'red'}}>
+			return (<span className= 'threadBadge chip ' style={{backgroundColor: '#ee6e73'}}>
 					{processBadge(props.thread.answerBadge)}
 				</span>);
 		} else {
@@ -44,6 +44,8 @@ const ThreadItem = (props) => {
 				<Link to={`/course/${props.thread.courseId}/${props.pageNum}/${props.thread.threadId}/1`} >
 					<span className = 'threadTitle col s9 truncate'>
 						{ props.thread.title }
+						<br />
+						{props.thread.content == '' ? null : <span className='content'><i className="material-icons tiny icon">subdirectory_arrow_right</i>{props.thread.content.split(/<.*?>/).join('')}</span>}
 					</span>
 				</Link>
 				<span className= 'threadViews col s1'>

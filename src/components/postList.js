@@ -1,5 +1,6 @@
 import React from 'react';
 import PostItem from './postItem';
+import moment from 'moment';
 
 //This component is a helper to render the list of Course Threads.
 const PostList = (props) => {
@@ -38,6 +39,9 @@ const PostList = (props) => {
 					post.user = "Todd Sprentall";
 					break;
 			}
+	});
+	props.posts.forEach((post) => {
+		post.post_time = moment(post.post_time, "x").format("DD MMM YYYY hh:mm a");
 	});
 	const posts = props.posts.map(post => {
 		return(
