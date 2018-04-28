@@ -15,7 +15,7 @@ const PostList = (props) => {
 					post.user = "Harcharan Singh Mittu";
 					break;
 				case 2:
-					post.user = "Arifin Othman";
+					post.user = "Geoff Crow";
 					break;
 				case 3:
 					post.user = "Shivam Chauhan";
@@ -30,10 +30,10 @@ const PostList = (props) => {
 					post.user = "Mihaela Mack";
 					break;
 				case 7:
-					post.user = "Joseph Carrigan";
+					post.user = "Roland Ashley Fernandes";
 					break;
 				case 8:
-					post.user = "Roland Ashley Fernandes";
+					post.user = "Joseph Carrigan";
 					break;
 				case 9:
 					post.user = "Todd Sprentall";
